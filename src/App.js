@@ -1,6 +1,11 @@
 import logo from './assets/logo.svg';
 import './css/App.css';
 
+// importar mi primer componente creado
+import { First } from "./newComponents/FirstComponent";
+let primeraInicializacion = new First() /* no es necesario ni siquiera "instanciar la clase para acceder a las funciones y su uso como tal" */
+// pero y para acceder a un metodo o atributo en especifico si.
+
 function nombreCompleto(name,surname) {
   let presentacion = (<div>
   <h2 className = "h2">I'm {name} {surname}</h2>
@@ -23,7 +28,9 @@ function App() {
         {/* esta es la declaracion de un h2 */}{nombreCompleto("john","rodriguez")}
         <input type = "text" placeholder= "your name" id = "input"></input>{/* como se maneja eventos */}
         <p>
-          ...and my ocupation is {ocupation} !!!
+          ...and my ocupation issss {ocupation} !!! 
+          {/* uso el componente creado en el otro archivo */}
+          <First /> {/* de esta manera estoy haciendo uso de la clase y de en si, de todos los metodos que en ella haya pero si necesitara acceder a alguno en especifico ¿seria necesario instanciar la clase para acceder de manera individual? */}
         </p>
         <a
           className="App-link"
