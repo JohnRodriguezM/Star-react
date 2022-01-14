@@ -1,0 +1,45 @@
+notas sobre react:
+
+react se escribre con JSX
+es un lenguaje "especial" que mezcla html con js, para escribir componentes que es la manera con la que funciona react
+
+
+en jsx las variables o funciones se deben declarar afuera del return del componenete
+
+las clases en jsx se definen con className="Xname"
+
+
+componentes:
+los componenetes son la parte lógica que controla un trozo de pantalla(aplicacion), el conjunto de todos los compenentes gestionan la pantalla completa, la aplicacion
+
+
+
+// funcion inicial basica de react en app.js
+
+
+function App() {
+  /* la definicion de las variables, funciones,etc deben estar fuera del return */
+  let ocupacion = "estudiante"
+  return (
+    <div className="App">
+        {/* //edit// {
+          alert("hola mundo desde react")
+        }  */}
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          mi ocupacion es {ocupacion} !!!
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+
+export default App;
