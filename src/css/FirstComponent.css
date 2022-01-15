@@ -1,0 +1,9 @@
+@import url(./configGLobales/globales.css);
+
+.micom{
+    text-align: center;
+}
+
+.liItem{
+    display: inline-block;
+}

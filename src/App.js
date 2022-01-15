@@ -29,9 +29,10 @@ function App() {
         <input type = "text" placeholder= "your name" id = "input"></input>{/* como se maneja eventos */}
         <p>
           ...and my ocupation issss {ocupation} !!! 
+        </p>
           {/* uso el componente creado en el otro archivo */}
           <First /> {/* de esta manera estoy haciendo uso de la clase y de en si, de todos los metodos que en ella haya pero si necesitara acceder a alguno en especifico ¿seria necesario instanciar la clase para acceder de manera individual? */}
-        </p>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
