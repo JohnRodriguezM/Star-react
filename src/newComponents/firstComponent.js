@@ -44,16 +44,3 @@ export class First extends Component{
 }
 
 
-export class Nuumber extends Component{
-    render(){
-        return(
-            <div className = "shopping" name = "lista de compras">
-            <h1>lista de comprar para {this.props}</h1>
-            <ul>
-                <li>instagram</li>
-                <li>facebook</li>
-            </ul>
-            </div>
-        )
-    }
-}

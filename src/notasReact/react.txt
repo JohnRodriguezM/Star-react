@@ -14,6 +14,17 @@ los componenetes son la parte lógica que controla un trozo de pantalla(aplicaci
 
 
 
+//metodos
+/*
+onClick = ()=>{...}
+this.state() debe ser considerado como privado para un componente de react que es definido
+
+*/
+
+
+
+
+
 // funcion inicial basica de react en app.js
 
 

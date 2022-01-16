@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/configGLobales/globales.css';
 import App from './App';
+
+
+
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
