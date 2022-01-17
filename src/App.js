@@ -4,6 +4,7 @@ import './css/App.css';
 // importar mi primer componente creado
 import { First } from "./newComponents/FirstComponent";
 import { Game } from "./game";
+
 //let primeraInicializacion = new First(); /* no es necesario ni siquiera "instanciar la clase para acceder a las funciones y su uso como tal" */
 // pero y para acceder a un metodo o atributo en especifico si.
 
@@ -50,6 +51,7 @@ function App() {
           <br></br>
           <br></br>
           <br></br>
+          
         <a
           className="App-link"
           href="https://reactjs.org"
