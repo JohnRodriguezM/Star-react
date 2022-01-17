@@ -1,3 +1,32 @@
+// herencia prototipica js{//
+
+class humano{
+constructor(nombre){
+this.nombre = nombre;
+
+}
+saludar(){
+
+console.log(`mi nombre es ${this.nombre}`)
+}
+
+}
+
+class humanoProfesional extends humano{
+constructor(nombre,profesion){
+super(nombre)
+this.profesion = profesion;
+}
+
+}//
+
+
+
+}
+
+
+
+
 notas sobre react:
 
 react se escribre con JSX
